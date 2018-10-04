@@ -1,0 +1,35 @@
+
+.art
+{
+	height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    	
+}
+.row{
+	width:20rem;
+    margin-left: 2%;
+    padding-left:2%; 
+    margin-top: 10px;  
+}
+.card-body{
+    background-color: aqua;
+    height: 100%;
+}
+.card-body a {
+	text-decoration: none;
+    color: black;
+   
+}
+.input{
+    width:100%;
+}
+.card-img-top
+{
+    height: 350px;
+}
+.Upcoming {
+    background-color: bisque;
+}

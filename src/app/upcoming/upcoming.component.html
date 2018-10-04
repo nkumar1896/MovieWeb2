@@ -1,0 +1,21 @@
+
+
+<div class="Upcoming">
+    <h3>Upcoming  Movies</h3>
+   <div class="art" *ngIf="res2">
+      
+              <div class="row" *ngFor="let res2 of res2.results">
+                <div class="card">
+                  <img class="card-img-top" src="http://image.tmdb.org/t/p/w500{{res2.poster_path}}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">{{res2.original_title}}</h5>
+                    <p class="card-text">{{res2.overview}}</p>
+                    <button class="btn btn-primary" (click)="favourite(res2)">Favourite</button>
+                  </div>
+                  <div class="card-footer">
+                      <a href="#" class="btn btn-primary">More Info</a>
+                  </div>
+                </div>
+              </div>
+    </div>
+  </div>
