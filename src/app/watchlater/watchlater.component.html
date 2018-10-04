@@ -1,0 +1,19 @@
+<div class="Trending">
+    <h3>WatchLater Movies</h3>
+   <div class="art" *ngIf="res1">
+              <div class="row" *ngFor="let a of res1">
+                <div class="card">
+                  <img class="card-img-top" src="http://image.tmdb.org/t/p/w500{{a.poster_path}}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">{{a.original_title}}</h5>
+                    <p class="card-text">{{a.overview}}</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">More Info</a>
+                        
+                      </div>
+                  
+                </div>
+              </div>
+    </div>
+  </div>

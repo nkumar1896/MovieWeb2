@@ -23,9 +23,5 @@ export class AppComponent {
     //   console.log(this.res);
     //})
   }
-  search(){
-    //let obj= this.http.get('https://api.themoviedb.org/3/search/movie?api_key=df3b8fae120ac608bc201c6dc996d3e6&language=en-US&page=1&query='+ this.userid)
-  //  let obj=this.http.get('https://api.themoviedb.org/3/movie/'+ this.userid +'?api_key=df3b8fae120ac608bc201c6dc996d3e6&language=en-US&page=1')
- 
-   }
+  
 }

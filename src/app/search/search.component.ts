@@ -13,6 +13,8 @@ export class SearchComponent implements OnInit {
   res:string;
   show:boolean;
   res4:any;
+  res5:any;
+  res6:any;
   constructor(private http: HttpClient,private rest:ActivatedRoute) {
    
    }
@@ -43,6 +45,23 @@ export class SearchComponent implements OnInit {
 
 }
   
-  
+badmovies(movie)
+  {
+   this.http.post("http://localhost:3000/badmovies", movie)
+   .subscribe((res5) =>{
+     this.res5=res5; 
+     console.log(this.res5);
+  })
+
+}
+watchlater(movie)
+  {
+   this.http.post("http://localhost:3000/watchlater", movie)
+   .subscribe((res6) =>{
+     this.res6=res6; 
+     console.log(this.res6);
+  })
+
+}  
 
 }

@@ -10,13 +10,17 @@ import {HttpClientModule} from '@angular/common/http';
 import { TestService } from './test.service';
 import {FormsModule} from '@angular/forms';
 import { CollectionComponent } from './collection/collection.component';
+import { WatchlaterComponent } from './watchlater/watchlater.component';
+import { BadmoviesComponent } from './badmovies/badmovies.component';
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
     UpcomingComponent,
     TrendingComponent,
-    CollectionComponent
+    CollectionComponent,
+    WatchlaterComponent,
+    BadmoviesComponent
   ],
   imports: [
     BrowserModule,

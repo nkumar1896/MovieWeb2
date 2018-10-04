@@ -1,10 +1,11 @@
 
+
 .art
 {
 	height: auto;
     display: flex;
     flex-wrap: wrap;
-   
+    
 
     	
 }
@@ -32,6 +33,6 @@
     height: 350px;
 }
 .Trending {
-   
+  
     background-color: bisque;
 }

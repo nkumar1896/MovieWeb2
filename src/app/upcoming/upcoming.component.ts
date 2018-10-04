@@ -8,6 +8,8 @@ import {HttpClient} from '@angular/common/http';
 export class UpcomingComponent implements OnInit {
   res2:any;
   res4:any;
+  res5:any;
+  res6:any;
   constructor(private http: HttpClient) {
    
    }
@@ -27,6 +29,24 @@ export class UpcomingComponent implements OnInit {
    .subscribe((res4) =>{
      this.res4=res4; 
      console.log(this.res4);
+  })
+
+}
+watchlater(movie)
+  {
+   this.http.post("http://localhost:3000/watchlater", movie)
+   .subscribe((res5) =>{
+     this.res5=res5; 
+     console.log(this.res5);
+  })
+
+}
+badmovies(movie)
+  {
+   this.http.post("http://localhost:3000/badmovies", movie)
+   .subscribe((res6) =>{
+     this.res6=res6; 
+     console.log(this.res6);
   })
 
 }
