@@ -26,7 +26,7 @@ export class UpcomingComponent implements OnInit {
   }
   favourite(movie)
   {
-   this.http.post("http://localhost:3004/favourite", movie)
+   this.http.post("https://serene-forest-39071.herokuapp.com/favourite", movie)
    .subscribe((res4) =>{
      this.res4=res4; 
      console.log(this.res4);
@@ -35,7 +35,7 @@ export class UpcomingComponent implements OnInit {
 }
 watchlater(movie)
   {
-   this.http.post("http://localhost:3004/watchlater", movie)
+   this.http.post("https://serene-forest-39071.herokuapp.com/watchlater", movie)
    .subscribe((res5) =>{
      this.res5=res5; 
      console.log(this.res5);
@@ -44,7 +44,7 @@ watchlater(movie)
 }
 badmovies(movie)
   {
-   this.http.post("http://localhost:3004/badmovies", movie)
+   this.http.post("https://serene-forest-39071.herokuapp.com/badmovies", movie)
    .subscribe((res6) =>{
      this.res6=res6; 
      console.log(this.res6);

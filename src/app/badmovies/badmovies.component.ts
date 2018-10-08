@@ -12,7 +12,7 @@ res1:any;
    
   }
   ngOnInit() {
-    let obj=this.http.get('http://localhost:3004/badmovies')
+    let obj=this.http.get('https://serene-forest-39071.herokuapp.com/badmovies')
     obj.subscribe((res1)=>{
       this.res1=res1;
       console.log(this.res1);

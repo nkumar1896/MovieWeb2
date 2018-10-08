@@ -14,7 +14,7 @@ export class WatchlaterComponent implements OnInit {
   }
 
   ngOnInit() {
-    let obj=this.http.get('http://localhost:3004/watchlater')
+    let obj=this.http.get('https://serene-forest-39071.herokuapp.com/watchlater')
     obj.subscribe((res1)=>{
       this.res1=res1;
       console.log(this.res1);
