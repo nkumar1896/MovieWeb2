@@ -1,0 +1,525 @@
+{
+  "badmovies": [
+    {
+      "adult": false,
+      "backdrop_path": "/96B1qMN9RxrAFu6uikwFhQ6N6J9.jpg",
+      "genre_ids": [
+        28,
+        12,
+        80,
+        878,
+        37,
+        10749
+      ],
+      "id": 348350,
+      "original_language": "en",
+      "original_title": "Solo: A Star Wars Story",
+      "overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
+      "poster_path": "/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg",
+      "release_date": "2018-05-15",
+      "title": "Solo: A Star Wars Story",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 1987,
+      "popularity": 183.902
+    },
+    {
+      "vote_count": 360,
+      "id": 297222,
+      "video": false,
+      "vote_average": 7.7,
+      "title": "PK",
+      "popularity": 4.669,
+      "poster_path": "/sYbWZa413QmoBx0quaTLYMZHMAi.jpg",
+      "original_language": "hi",
+      "original_title": "पीके",
+      "genre_ids": [
+        35,
+        18,
+        14
+      ],
+      "backdrop_path": "/aCIOTvmk8jOTJn0BxlrRNV67lQI.jpg",
+      "adult": false,
+      "overview": "This experimental satire is a comedy of ideas about an alien in the city, who asks questions that no one has asked before. They are innocent, child-like questions, but they bring about catastrophic answers. People who are set in their ways for generations, are forced to reappraise their world when they see it from PK's innocent eyes. In the process PK makes loyal friends and powerful foes, mends broken lives and angers the establishment. PK's childlike curiosity transforms into a spiritual odyssey for him and millions of others. This offbeat, experimental drama is an ambitious and uniquely original exploration of complex philosophies. It is also a simple and humane tale of love, laughter and letting-go. Finally, it is a moving saga about a friendship between strangers from worlds apart.",
+      "release_date": "2014-12-18"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+      "belongs_to_collection": null,
+      "budget": 116000000,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "http://www.venom.movie/site/",
+      "id": 335983,
+      "imdb_id": "tt1270797",
+      "original_language": "en",
+      "original_title": "Venom",
+      "overview": "When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego “Venom” to save his life.",
+      "popularity": 467.931,
+      "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+      "production_companies": [
+        {
+          "id": 5,
+          "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+          "name": "Columbia Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 7505,
+          "logo_path": "/837VMM4wOkODc1idNxGT0KQJlej.png",
+          "name": "Marvel Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 34,
+          "logo_path": "/GagSvqWlyPdkFHMfQ3pNq6ix9P.png",
+          "name": "Sony Pictures",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2018-10-03",
+      "revenue": 205230000,
+      "runtime": 112,
+      "spoken_languages": [
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "The world has enough Superheroes.",
+      "title": "Venom",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 434
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oMKFQmoVgB69fyXfSMu0lGlHJP2.jpg",
+      "belongs_to_collection": null,
+      "budget": 125000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "homepage": "https://www.skyscrapermovie.com",
+      "id": 447200,
+      "imdb_id": "tt5758778",
+      "original_language": "en",
+      "original_title": "Skyscraper",
+      "overview": "Framed and on the run, a former FBI agent must save his family from a blazing fire in the world's tallest building.",
+      "popularity": 110.666,
+      "poster_path": "/5LYSsOPzuP13201qSzMjNxi8FxN.jpg",
+      "production_companies": [
+        {
+          "id": 34081,
+          "logo_path": null,
+          "name": "Flynn Picture Company",
+          "origin_country": "US"
+        },
+        {
+          "id": 923,
+          "logo_path": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+          "name": "Legendary Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 73669,
+          "logo_path": "/usfW3lL4cL8eatNAlhfRrryyKkK.png",
+          "name": "Seven Bucks Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2018-07-11",
+      "revenue": 292351275,
+      "runtime": 102,
+      "spoken_languages": [
+        {
+          "iso_639_1": "cn",
+          "name": "广州话 / 廣州話"
+        },
+        {
+          "iso_639_1": "zh",
+          "name": "普通话"
+        },
+        {
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Don't look down",
+      "title": "Skyscraper",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 911
+    }
+  ],
+  "watchlater": [
+    {
+      "vote_count": 360,
+      "id": 297222,
+      "video": false,
+      "vote_average": 7.7,
+      "title": "PK",
+      "popularity": 4.669,
+      "poster_path": "/sYbWZa413QmoBx0quaTLYMZHMAi.jpg",
+      "original_language": "hi",
+      "original_title": "पीके",
+      "genre_ids": [
+        35,
+        18,
+        14
+      ],
+      "backdrop_path": "/aCIOTvmk8jOTJn0BxlrRNV67lQI.jpg",
+      "adult": false,
+      "overview": "This experimental satire is a comedy of ideas about an alien in the city, who asks questions that no one has asked before. They are innocent, child-like questions, but they bring about catastrophic answers. People who are set in their ways for generations, are forced to reappraise their world when they see it from PK's innocent eyes. In the process PK makes loyal friends and powerful foes, mends broken lives and angers the establishment. PK's childlike curiosity transforms into a spiritual odyssey for him and millions of others. This offbeat, experimental drama is an ambitious and uniquely original exploration of complex philosophies. It is also a simple and humane tale of love, laughter and letting-go. Finally, it is a moving saga about a friendship between strangers from worlds apart.",
+      "release_date": "2014-12-18"
+    },
+    {
+      "vote_count": 54,
+      "id": 463272,
+      "video": false,
+      "vote_average": 6.7,
+      "title": "Johnny English Strikes Again",
+      "popularity": 40.527,
+      "poster_path": "/tCBxnZwLiY1BOKw3tH6AxHZdqPh.jpg",
+      "original_language": "en",
+      "original_title": "Johnny English Strikes Again",
+      "genre_ids": [
+        12,
+        10751,
+        28,
+        35
+      ],
+      "backdrop_path": "/yCOLqh5MOGyYdo58Ap0aWvKop9h.jpg",
+      "adult": false,
+      "overview": "Disaster strikes when a criminal mastermind reveals the identities of all active undercover agents in Britain. The secret service can now rely on only one man—Johnny English. Currently teaching at a minor prep school, Johnny springs back into action to find the mysterious hacker. For this mission to succeed, he’ll need all of his skills—what few he has—as the man with yesterday’s analogue methods faces off against tomorrow’s digital technology.",
+      "release_date": "2018-09-13"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/onla4mvIdCD6luYTAMcLHizBAop.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 458342,
+      "original_language": "en",
+      "original_title": "Private Life",
+      "overview": "Richard and Rachel, a couple in the throes of infertility, try to maintain their marriage as they descend deeper and deeper into the insular world of assisted reproduction and domestic adoption.",
+      "poster_path": "/c0LxunoOD30s1d9fgwFQ0JTUCva.jpg",
+      "release_date": "2018-10-05",
+      "title": "Private Life",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 4,
+      "popularity": 52.123
+    },
+    {
+      "vote_count": 449,
+      "id": 335983,
+      "video": false,
+      "vote_average": 6.7,
+      "title": "Venom",
+      "popularity": 494.735,
+      "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+      "original_language": "en",
+      "original_title": "Venom",
+      "genre_ids": [
+        27,
+        878,
+        28,
+        53
+      ],
+      "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+      "adult": false,
+      "overview": "When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego “Venom” to save his life.",
+      "release_date": "2018-10-03"
+    }
+  ],
+  "favourite": [
+    {
+      "adult": false,
+      "backdrop_path": "/96B1qMN9RxrAFu6uikwFhQ6N6J9.jpg",
+      "genre_ids": [
+        28,
+        12,
+        80,
+        878,
+        37,
+        10749
+      ],
+      "id": 348350,
+      "original_language": "en",
+      "original_title": "Solo: A Star Wars Story",
+      "overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
+      "poster_path": "/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg",
+      "release_date": "2018-05-15",
+      "title": "Solo: A Star Wars Story",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 1987,
+      "popularity": 183.902
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/m03jul0YdVEOFXEQVUv6pOVQYGL.jpg",
+      "genre_ids": [
+        16,
+        35,
+        14,
+        10751
+      ],
+      "id": 400155,
+      "original_language": "en",
+      "original_title": "Hotel Transylvania 3: Summer Vacation",
+      "overview": "Dracula, Mavis, Johnny and the rest of the Drac Pack take a vacation on a luxury Monster Cruise Ship, where Dracula falls in love with the ship’s captain, Ericka, who’s secretly a descendant of Abraham Van Helsing, the notorious monster slayer.",
+      "poster_path": "/gjAFM4xhA5vyLxxKMz38ujlUfDL.jpg",
+      "release_date": "2018-06-28",
+      "title": "Hotel Transylvania 3: Summer Vacation",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 697,
+      "popularity": 87.689
+    },
+    {
+      "vote_count": 360,
+      "id": 297222,
+      "video": false,
+      "vote_average": 7.7,
+      "title": "PK",
+      "popularity": 4.669,
+      "poster_path": "/sYbWZa413QmoBx0quaTLYMZHMAi.jpg",
+      "original_language": "hi",
+      "original_title": "पीके",
+      "genre_ids": [
+        35,
+        18,
+        14
+      ],
+      "backdrop_path": "/aCIOTvmk8jOTJn0BxlrRNV67lQI.jpg",
+      "adult": false,
+      "overview": "This experimental satire is a comedy of ideas about an alien in the city, who asks questions that no one has asked before. They are innocent, child-like questions, but they bring about catastrophic answers. People who are set in their ways for generations, are forced to reappraise their world when they see it from PK's innocent eyes. In the process PK makes loyal friends and powerful foes, mends broken lives and angers the establishment. PK's childlike curiosity transforms into a spiritual odyssey for him and millions of others. This offbeat, experimental drama is an ambitious and uniquely original exploration of complex philosophies. It is also a simple and humane tale of love, laughter and letting-go. Finally, it is a moving saga about a friendship between strangers from worlds apart.",
+      "release_date": "2014-12-18"
+    },
+    {
+      "vote_count": 1,
+      "id": 368255,
+      "video": false,
+      "vote_average": 10,
+      "title": "The Perils of P.K",
+      "popularity": 0.6,
+      "poster_path": null,
+      "original_language": "en",
+      "original_title": "The Perils of P.K",
+      "genre_ids": [],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "P.K., a former movie star now reduced to working as a stripper in a Las Vegas nightclub, is desperate for a comeback, and thinks she could make one if she could only get a big-name star to appear in a movie with her. She relates all these problems, and many of her fantasies, to her psychiatrist, and also approaches several entertainers working in Las Vegas to try to get them to help make her dream come true.",
+      "release_date": ""
+    },
+    {
+      "vote_count": 402,
+      "id": 346910,
+      "video": false,
+      "vote_average": 5.3,
+      "title": "The Predator",
+      "popularity": 123.609,
+      "poster_path": "/wMq9kQXTeQCHUZOG4fAe5cAxyUA.jpg",
+      "original_language": "en",
+      "original_title": "The Predator",
+      "genre_ids": [
+        27,
+        878,
+        28,
+        35
+      ],
+      "backdrop_path": "/f4E0ocYeToEuXvczZv6QArrMDJ.jpg",
+      "adult": false,
+      "overview": "From the outer reaches of space to the small-town streets of suburbia, the hunt comes home. Now, the universe’s most lethal hunters are stronger, smarter and deadlier than ever before, having genetically upgraded themselves with DNA from other species. When a young boy accidentally triggers their return to Earth, only a ragtag crew of ex-soldiers and a disgruntled science teacher can prevent the end of the human race.",
+      "release_date": "2018-09-13"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6P3c80EOm7BodndGBUAJHHsHKrp.jpg",
+      "genre_ids": [
+        28,
+        12,
+        35,
+        878,
+        10749,
+        10751
+      ],
+      "id": 363088,
+      "original_language": "en",
+      "original_title": "Ant-Man and the Wasp",
+      "overview": "Just when his time under house arrest is about to end, Scott Lang puts his freedom at risk to help Hope van Dyne and Dr. Hank Pym to delve into the quantum universe and try to accomplish, against time and any chance of success, a very dangerous rescue mission.",
+      "poster_path": "/rv1AWImgx386ULjcf62VYaW8zSt.jpg",
+      "release_date": "2018-07-04",
+      "title": "Ant-Man and the Wasp",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 2271,
+      "popularity": 139.293
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3s9O5af2xWKWR5JzP2iJZpZeQQg.jpg",
+      "genre_ids": [
+        28,
+        12,
+        27,
+        878
+      ],
+      "id": 351286,
+      "original_language": "en",
+      "original_title": "Jurassic World: Fallen Kingdom",
+      "overview": "Three years after the demise of Jurassic World, a volcanic eruption threatens the remaining dinosaurs on the isla Nublar, so Claire Dearing, the former park manager, recruits Owen Grady to help prevent the extinction of the dinosaurs once again.",
+      "poster_path": "/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg",
+      "release_date": "2018-06-06",
+      "title": "Jurassic World: Fallen Kingdom",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 3696,
+      "popularity": 113.276
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mZXeah7k9g6w81T1UlczCpSgT7R.jpg",
+      "genre_ids": [
+        18,
+        36,
+        53
+      ],
+      "id": 493551,
+      "original_language": "en",
+      "original_title": "Operation Finale",
+      "overview": "15 years after the end of  World War II, a team of Israeli secret agents is assigned to track down Adolf Eichmann, the infamous Nazi architect of the Holocaust, reported hiding in Argentina, and smuggle him back to Israel for trial.  A true story.",
+      "poster_path": "/nlIdPeH5IrR1qRErschnVQeZAQu.jpg",
+      "release_date": "2018-08-29",
+      "title": "Operation Finale",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 25,
+      "popularity": 9.174
+    },
+    {
+      "vote_count": 0,
+      "id": 428771,
+      "video": false,
+      "vote_average": 0,
+      "title": "P.K. Subban Skate Past The Noise: The Off-Season",
+      "popularity": 0.6,
+      "poster_path": "/ejZqTy2kOFTXYxB3aiCQHQXeGrz.jpg",
+      "original_language": "en",
+      "original_title": "P.K. Subban Skate Past The Noise: The Off-Season",
+      "genre_ids": [
+        99
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "With unparalleled access and open and candid conversations, follow superstar PK Subban as he faces the longest off-season of his career following an injury-plagued season and an unexpected trade to the Nashville Predators.",
+      "release_date": "2016-11-18"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/s8zsrC8FUQtWbywL7oYY7AZ9PMQ.jpg",
+      "genre_ids": [
+        18,
+        37
+      ],
+      "id": 438145,
+      "original_language": "en",
+      "original_title": "Black '47",
+      "overview": "It’s 1847 and Ireland is in the grip of the Great Famine that has ravaged the country for two long years. Feeney, a hardened Irish Ranger who has been fighting for the British Army abroad, abandons his post to return home and reunite with his estranged family.",
+      "poster_path": "/gZiu9RIcMeQLUaDVqQffQTl6bhy.jpg",
+      "release_date": "2018-09-28",
+      "title": "Black '47",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 12,
+      "popularity": 22.879
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oMKFQmoVgB69fyXfSMu0lGlHJP2.jpg",
+      "genre_ids": [
+        28,
+        18,
+        53
+      ],
+      "id": 447200,
+      "original_language": "en",
+      "original_title": "Skyscraper",
+      "overview": "Framed and on the run, a former FBI agent must save his family from a blazing fire in the world's tallest building.",
+      "poster_path": "/5LYSsOPzuP13201qSzMjNxi8FxN.jpg",
+      "release_date": "2018-07-11",
+      "title": "Skyscraper",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 911,
+      "popularity": 110.666
+    },
+    {
+      "vote_count": 449,
+      "id": 335983,
+      "video": false,
+      "vote_average": 6.7,
+      "title": "Venom",
+      "popularity": 494.735,
+      "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+      "original_language": "en",
+      "original_title": "Venom",
+      "genre_ids": [
+        27,
+        878,
+        28,
+        53
+      ],
+      "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+      "adult": false,
+      "overview": "When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego “Venom” to save his life.",
+      "release_date": "2018-10-03"
+    }
+  ]
+}
