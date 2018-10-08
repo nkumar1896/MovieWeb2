@@ -12,6 +12,11 @@ export class AppComponent {
   res:any;
   show:boolean;
   usertitle:string="";
+  navbarOpen = false;
+
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
   constructor(private svc:TestService,private  http:HttpClient, private router: Router)
   {
     // this.svc.printToConsole('got the service');
@@ -23,5 +28,6 @@ export class AppComponent {
     //   console.log(this.res);
     //})
   }
+  
   
 }
