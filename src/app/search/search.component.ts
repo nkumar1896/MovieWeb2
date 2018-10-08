@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import { AppComponent } from '../app.component';
 import {ActivatedRoute} from '@angular/router';
+import{Router} from '@angular/router';
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
@@ -15,7 +16,7 @@ export class SearchComponent implements OnInit {
   res4:any;
   res5:any;
   res6:any;
-  constructor(private http: HttpClient,private rest:ActivatedRoute) {
+  constructor(private http: HttpClient,private rest:ActivatedRoute,private router:Router) {
    
    }
   
@@ -37,7 +38,7 @@ export class SearchComponent implements OnInit {
 
     favourite(movie)
   {
-   this.http.post("http://localhost:3000/favourite", movie)
+   this.http.post("http://localhost:3004/favourite", movie)
    .subscribe((res4) =>{
      this.res4=res4; 
      console.log(this.res4);
@@ -47,7 +48,7 @@ export class SearchComponent implements OnInit {
   
 badmovies(movie)
   {
-   this.http.post("http://localhost:3000/badmovies", movie)
+   this.http.post("http://localhost:3004/badmovies", movie)
    .subscribe((res5) =>{
      this.res5=res5; 
      console.log(this.res5);
@@ -56,12 +57,18 @@ badmovies(movie)
 }
 watchlater(movie)
   {
-   this.http.post("http://localhost:3000/watchlater", movie)
+   this.http.post("http://localhost:3004/watchlater", movie)
    .subscribe((res6) =>{
      this.res6=res6; 
      console.log(this.res6);
   })
 
-}  
+}
+Moreinfo(movieId){
+  this.router.navigate(['moreinfo'],{
+    queryParams:{
+      "id":movieId
+  }})
+ }  
 
 }

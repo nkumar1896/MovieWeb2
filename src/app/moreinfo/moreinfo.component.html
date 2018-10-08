@@ -1,0 +1,19 @@
+<div class="art" *ngIf="res7">
+  <div class="row">
+      <div class="card">
+        <img class="card-img-top" src="http://image.tmdb.org/t/p/w500{{res7.poster_path}}" alt="No image Present in API">
+        <div class="card-body">
+          <h5 class="card-title">{{res7.original_title}}</h5>
+          <p class="card-text">{{res7.overview}}</p>
+          <p >Realease Date: {{res7.release_date}}</p>
+          <p >Video: {{res7.video}}</p>
+          <p>Vote Average: {{res7.vote_average}}</p>
+          <p>Vote Count: {{res7.vote_count}}</p>
+          <p>popularity: {{res7.popularity}}</p>
+          <button class="btn btn-primary" (click)="favourite(res7)" >Favourite</button>&nbsp;
+          <button class="btn btn-primary" (click)="watchlater(res7)">WatchLater</button>&nbsp;
+        <button class="btn btn-primary" (click)="badmovies(res7)">BadMovies</button>
+      </div>
+   </div>
+</div>
+</div>

@@ -6,6 +6,7 @@ import {UpcomingComponent } from './upcoming/upcoming.component';
 import{CollectionComponent} from './collection/collection.component';
 import { WatchlaterComponent } from './watchlater/watchlater.component';
 import { BadmoviesComponent } from './badmovies/badmovies.component';
+import { MoreinfoComponent } from './moreinfo/moreinfo.component';
 
 const routes: Route[] = [
   {path:'', redirectTo:'trending', pathMatch:'full'},
@@ -15,7 +16,8 @@ const routes: Route[] = [
   {path:'upcoming', component:UpcomingComponent},
   {path:'collection', component:CollectionComponent},
   {path:'watchlater', component:WatchlaterComponent},
-  {path:'badmovies', component:BadmoviesComponent}
+  {path:'badmovies', component:BadmoviesComponent},
+  {path:'moreinfo', component:MoreinfoComponent}
  
 ];
 

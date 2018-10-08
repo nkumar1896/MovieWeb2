@@ -4,12 +4,12 @@
 	height: auto;
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 
     	
 }
 .row{
-	width:20rem;
+	width:25rem;
     margin-left: 2%;
     padding-left:2%; 
     margin-top: 10px; 

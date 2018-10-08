@@ -12,6 +12,7 @@ import {FormsModule} from '@angular/forms';
 import { CollectionComponent } from './collection/collection.component';
 import { WatchlaterComponent } from './watchlater/watchlater.component';
 import { BadmoviesComponent } from './badmovies/badmovies.component';
+import { MoreinfoComponent } from './moreinfo/moreinfo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { BadmoviesComponent } from './badmovies/badmovies.component';
     TrendingComponent,
     CollectionComponent,
     WatchlaterComponent,
-    BadmoviesComponent
+    BadmoviesComponent,
+    MoreinfoComponent
   ],
   imports: [
     BrowserModule,

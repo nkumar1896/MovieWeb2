@@ -4,12 +4,13 @@
 	height: auto;
     display: flex;
     flex-wrap: wrap;
-   justify-content: center;
+    justify-content: center;
+   background-color: bisque;
 
     	
 }
 .row{
-	width:25rem;
+	width:28rem;
     margin-left: 2%;
     padding-left:2%; 
     margin-top: 10px;  
@@ -23,13 +24,7 @@
     color: black;
    
 }
-.input{
-    width:100%;
-}
 .card-img-top
 {
     height: 350px;
-}
-.Upcoming {
-    background-color: bisque;
 }

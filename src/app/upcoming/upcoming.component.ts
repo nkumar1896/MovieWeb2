@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
+import {  Router } from '@angular/router';
 @Component({
   selector: 'app-upcoming',
   templateUrl: './upcoming.component.html',
@@ -10,7 +11,7 @@ export class UpcomingComponent implements OnInit {
   res4:any;
   res5:any;
   res6:any;
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private router:Router) {
    
    }
 
@@ -25,7 +26,7 @@ export class UpcomingComponent implements OnInit {
   }
   favourite(movie)
   {
-   this.http.post("http://localhost:3000/favourite", movie)
+   this.http.post("http://localhost:3004/favourite", movie)
    .subscribe((res4) =>{
      this.res4=res4; 
      console.log(this.res4);
@@ -34,7 +35,7 @@ export class UpcomingComponent implements OnInit {
 }
 watchlater(movie)
   {
-   this.http.post("http://localhost:3000/watchlater", movie)
+   this.http.post("http://localhost:3004/watchlater", movie)
    .subscribe((res5) =>{
      this.res5=res5; 
      console.log(this.res5);
@@ -43,13 +44,19 @@ watchlater(movie)
 }
 badmovies(movie)
   {
-   this.http.post("http://localhost:3000/badmovies", movie)
+   this.http.post("http://localhost:3004/badmovies", movie)
    .subscribe((res6) =>{
      this.res6=res6; 
      console.log(this.res6);
   })
 
 }
+Moreinfo(movieId){
+  this.router.navigate(['moreinfo'],{
+    queryParams:{
+      "id":movieId
+  }})
+ }
   
 
 }

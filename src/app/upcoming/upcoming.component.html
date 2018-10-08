@@ -10,13 +10,13 @@
                   <div class="card-body">
                     <h5 class="card-title">{{res2.original_title}}</h5>
                     <p class="card-text">{{res2.overview}}</p>
-                    <button class="btn btn-primary" (click)="favourite(res2)">Favourite</button>
-                    <button class="btn btn-primary" (click)="watchlater(res2)">WatchLater</button>
+                    <button class="btn btn-primary" (click)="favourite(res2)">Favourite</button>&nbsp;
+                    <button class="btn btn-primary" (click)="watchlater(res2)">WatchLater</button>&nbsp;
                     <button class="btn btn-primary" (click)="badmovies(res2)">BadMovies</button>
 
                   </div>
                   <div class="card-footer">
-                      <a href="#" class="btn btn-primary">More Info</a>
+                      <button class="btn btn-primary" routerLink="moreinfo" (click)="Moreinfo(res2.id)">More Info</button>
                   </div>
                 </div>
               </div>
