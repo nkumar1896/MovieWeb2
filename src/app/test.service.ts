@@ -62,5 +62,19 @@ usertitle:string="";
   {
     return this.http.get('https://serene-forest-39071.herokuapp.com/badmovies');
   }
-  
+  deleteWatchLater(mid)
+  {
+    
+    return this.http.delete('https://serene-forest-39071.herokuapp.com/watchlater/'+ mid);  
+  }
+  deletefavourite(mid)
+  {
+    
+    return this.http.delete('https://serene-forest-39071.herokuapp.com/favourite/'+ mid);  
+  }
+  deletebadmovies(mid)
+  {
+    
+    return this.http.delete('https://serene-forest-39071.herokuapp.com/badmovies/'+ mid);  
+  }
 }

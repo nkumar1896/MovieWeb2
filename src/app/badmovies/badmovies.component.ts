@@ -29,14 +29,20 @@ res6:any;
         "id":movieId
     }})
    }
-  deletebadmovies(mid)
- {
-  this.http.delete('https://serene-forest-39071.herokuapp.com/badmovies/'+ mid)
-  .subscribe((res6) =>{
+deletebadmovies(mid)
+  {
+  this.test.deletebadmovies(mid).subscribe((res6) =>{
     this.res6=res6; 
+    this.callOnceMore();
     console.log(this.res6);
- }) 
+ })
+
 }
+callOnceMore()
+  {
+    this.getBadMovies();
+
+  }
   
 
 }

@@ -32,13 +32,18 @@ export class WatchlaterComponent implements OnInit {
         "id":movieId
     }})
    }
-   deletewatchlater(mid)
+deletewatchlater(mid)
   {
-   this.http.delete('https://serene-forest-39071.herokuapp.com/watchlater/'+ mid)
-   .subscribe((res6) =>{
-     this.res6=res6; 
-     console.log(this.res6);
-  })
+  this.test.deleteWatchLater(mid).subscribe((res6) =>{
+    this.res6=res6; 
+    this.callOnceMore();
+    console.log(this.res6);
+ })
 
 }
+callOnceMore()
+  {
+    this.getWatchLaterMovies();
+
+  }
 }

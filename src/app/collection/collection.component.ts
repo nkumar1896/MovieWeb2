@@ -29,12 +29,19 @@ Moreinfo(movieId){
       "id":movieId
   }})
  } 
- deletefavourite(mid)
- {
-  this.http.delete('https://serene-forest-39071.herokuapp.com/favourite/'+ mid)
-  .subscribe((res6) =>{
+ 
+deletefavourite(mid)
+  {
+  this.test.deletefavourite(mid).subscribe((res6) =>{
     this.res6=res6; 
+    this.callOnceMore();
     console.log(this.res6);
- }) 
+ })
+
 }
+callOnceMore()
+  {
+    this.getFavourite();
+
+  }
 }
