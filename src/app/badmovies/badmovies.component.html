@@ -7,6 +7,7 @@
                   <div class="card-body">
                     <h5 class="card-title">{{a.original_title}}</h5>
                     <p class="card-text">{{a.overview}}</p>
+                    <button class="btn btn-primary" (click)="deletebadmovies(a.id)">DeleteBadMovies</button>
                     </div>
                     <div class="card-footer">
                       <button class="btn btn-primary" routerLink="moreinfo" (click)="Moreinfo(a.id)">More Info</button>

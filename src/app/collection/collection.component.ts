@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import{Router} from '@angular/router';
+import { TestService } from '../test.service';
 @Component({
   selector: 'app-collection',
   templateUrl: './collection.component.html',
@@ -8,22 +9,32 @@ import{Router} from '@angular/router';
 })
 export class CollectionComponent implements OnInit {
 res1:any;
-  constructor(private http: HttpClient,private router:Router) {
+res6:any;
+  constructor(private http: HttpClient,private router:Router, private test:TestService) {
    
   }
-
   ngOnInit() {
-    let obj=this.http.get('https://serene-forest-39071.herokuapp.com/favourite')
-    obj.subscribe((res1)=>{
+    this.getFavourite();
+  }
+  getFavourite()
+  {
+    this.test.getFavourite().subscribe((res1)=>{
       this.res1=res1;
       console.log(this.res1);
-    })
-
-}
+    });
+  }
 Moreinfo(movieId){
   this.router.navigate(['moreinfo'],{
     queryParams:{
       "id":movieId
   }})
- }  
+ } 
+ deletefavourite(mid)
+ {
+  this.http.delete('https://serene-forest-39071.herokuapp.com/favourite/'+ mid)
+  .subscribe((res6) =>{
+    this.res6=res6; 
+    console.log(this.res6);
+ }) 
+}
 }

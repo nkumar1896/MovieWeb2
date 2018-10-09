@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import { AppComponent } from '../app.component';
 import {ActivatedRoute} from '@angular/router';
 import{Router} from '@angular/router';
+import { TestService } from '../test.service';
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
@@ -16,12 +17,12 @@ export class SearchComponent implements OnInit {
   res4:any;
   res5:any;
   res6:any;
-  constructor(private http: HttpClient,private rest:ActivatedRoute,private router:Router) {
+  constructor(private http: HttpClient,private rest:ActivatedRoute,private router:Router,private test: TestService) {
    
    }
   
 
-  ngOnInit() {
+ngOnInit() {
     //this.svc.printToConsole('got the service');
     this.rest.params.subscribe(params=>this.res=params.title);
     console.log(this.res);
@@ -31,38 +32,22 @@ export class SearchComponent implements OnInit {
       this.show=true;
       //this.router.navigateByUrl("'search',this.res");
       console.log(this.res4);
-    })
+  })
    
     console.log(this.res);
   }
 
-    favourite(movie)
+favourite(movie)
   {
-   this.http.post("https://serene-forest-39071.herokuapp.com/favourite", movie)
-   .subscribe((res4) =>{
-     this.res4=res4; 
-     console.log(this.res4);
-  })
-
-}
-  
-badmovies(movie)
-  {
-   this.http.post("https://serene-forest-39071.herokuapp.com/badmovies", movie)
-   .subscribe((res5) =>{
-     this.res5=res5; 
-     console.log(this.res5);
-  })
-
-}
+    this.test. addFavourites(movie);
+  }
 watchlater(movie)
   {
-   this.http.post("https://serene-forest-39071.herokuapp.com/watchlater", movie)
-   .subscribe((res6) =>{
-     this.res6=res6; 
-     console.log(this.res6);
-  })
-
+    this.test. addwatchlater(movie);
+}
+badmovies(movie)
+  {
+    this.test. addbadmovies(movie);
 }
 Moreinfo(movieId){
   this.router.navigate(['moreinfo'],{

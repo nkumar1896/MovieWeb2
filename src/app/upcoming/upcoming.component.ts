@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {  Router } from '@angular/router';
+import { TestService } from '../test.service';
 @Component({
   selector: 'app-upcoming',
   templateUrl: './upcoming.component.html',
@@ -11,45 +12,31 @@ export class UpcomingComponent implements OnInit {
   res4:any;
   res5:any;
   res6:any;
-  constructor(private http: HttpClient, private router:Router) {
+  constructor(private http: HttpClient, private router:Router,private test:TestService) {
    
    }
 
   ngOnInit() {
-    
-    let obj2=this.http.get('https://api.themoviedb.org/3/movie/upcoming?api_key=df3b8fae120ac608bc201c6dc996d3e6&language=en-US&page=1')
-    obj2.subscribe((res2)=>{
+    this.getupcoming();
+  }
+  getupcoming()
+  {
+    this.test.getupcoming().subscribe((res2)=>{
       this.res2=res2;
-      console.log(this.res2);
-    })
-   
+      console.log(this.res2)});
+
   }
   favourite(movie)
   {
-   this.http.post("https://serene-forest-39071.herokuapp.com/favourite", movie)
-   .subscribe((res4) =>{
-     this.res4=res4; 
-     console.log(this.res4);
-  })
-
-}
+    this.test. addFavourites(movie);
+  }
 watchlater(movie)
   {
-   this.http.post("https://serene-forest-39071.herokuapp.com/watchlater", movie)
-   .subscribe((res5) =>{
-     this.res5=res5; 
-     console.log(this.res5);
-  })
-
+    this.test. addwatchlater(movie);
 }
 badmovies(movie)
   {
-   this.http.post("https://serene-forest-39071.herokuapp.com/badmovies", movie)
-   .subscribe((res6) =>{
-     this.res6=res6; 
-     console.log(this.res6);
-  })
-
+    this.test. addbadmovies(movie);
 }
 Moreinfo(movieId){
   this.router.navigate(['moreinfo'],{
